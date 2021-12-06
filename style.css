@@ -1,0 +1,41 @@
+#mapid {
+  z-index: 1;
+  height: 700px;
+
+  border: 2px solid black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+}
+#nav {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 300px;
+  width: 200px;
+  padding: 4px 6px;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+#rad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+.un {
+  display: flex;
+  flex-direction: column;
+}
+.deux {
+  display: flex;
+  flex-direction: column;
+}
+
