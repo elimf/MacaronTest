@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Map Macaron</title>
-    <script  src="app.js" defer></script>
+    <script src="app.js" defer></script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -17,18 +17,21 @@
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""
     ></script>
-    
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="mapid"></div>
+    <button id="close"> x</button>
+    <button id="menu">Afficher</button>
+    
     <div id="nav">
       <h5>Leux de tournage en fonction des arrondissements:</h5>
       <div id="rad">
         <div class="un">
           <div>
             <label for="">1er</label>
-            <input type="checkbox" name="arr" id="arr1"  required />
+            <input type="checkbox" name="arr" id="arr1" required />
           </div>
           <div>
             <label for="">2eme</label>
@@ -111,5 +114,9 @@
         </div>
       </div>
     </div>
+    <script >
+     
+    </script>
+
   </body>
 </html>
